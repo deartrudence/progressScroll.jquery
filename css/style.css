@@ -6,38 +6,31 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-	font-family: sans-serif;
+	font-family: 'Questrial', sans-serif;
 }
 
 .hidden {
 	display: none;
 }
 
-.orange {
-	background-color: #e67e22 !important;
-}
-
-.purple {
-	background-color: #8e44ad !important;
-}
-.red {
-	background-color: #c0392b !important;
-}
-.yellow {
-	background-color: #f1c40f !important;
-}
 
 header {
 	background: rgba(0,0,0,0.75);
-	padding: 5%;
+	background-image: url('../trainTracks.jpg');
+	background-size: cover;
+	padding: 15%;
 }
 header h1{
 	font-style: italic;
 	text-align: center;
 	color: white;
+	letter-spacing: 5px;
+	font-size: 60px;
+	text-shadow: 0 0 4px rgba(0,0,0,0.75);
+	/*position: fixed;*/
 }
 .scrollWrapper {
-	height: 50px;
+/*	height: 50px;*/
 	width: 100%;
 	background: rgba(0,0,0,0.75);
 	position: fixed;
@@ -49,15 +42,21 @@ header h1{
 	color: white;
 	font-size: 20px;
 	margin: 0;
-	padding-top: 2%;
+/*	padding-top: 2%;*/
+	padding: 1.5%;   
 	padding-left: 5%;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;   
+	}
 
 }
 .scroll-bar {
-	height: 5px;
+	height: 10px;
 	z-index: 1000;
 	position: fixed;
 	background-color: #009ACF;
+	/*opacity: 0.5;*/
 	width: 50px;
 	top: 50px;
 
