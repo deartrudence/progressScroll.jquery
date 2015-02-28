@@ -6,7 +6,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-	font-family: 'Questrial', sans-serif;
+	font-family: 'lato', sans-serif;
 }
 
 .hidden {
@@ -21,6 +21,7 @@ header {
 	padding: 15%;
 }
 header h1{
+	font-family: 'questrial', sans-serif;
 	font-style: italic;
 	text-align: center;
 	color: white;
@@ -67,9 +68,30 @@ header h1{
 	margin: 0 auto;
 	margin-top: 5%;
 	letter-spacing: 2px;
-	line-height: 1.7;
+	line-height: 1.5;
+	font-size:18px;
 }
 
 .wrapper h1 {
 	text-align: center;
+}
+
+img {
+	width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td {
+    padding: 15px;
+}
+th {
+	background: #131412;
+	color: white;
+}
+
+span.defaultColor {
+	color: #009ACF ;
 }
