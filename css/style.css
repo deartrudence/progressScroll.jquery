@@ -18,7 +18,7 @@ header {
 	background: rgba(0,0,0,0.75);
 	background-image: url('../trainTracks.jpg');
 	background-size: cover;
-	padding: 15%;
+	padding: 10%;
 }
 header h1{
 	font-family: 'questrial', sans-serif;
@@ -28,22 +28,18 @@ header h1{
 	letter-spacing: 5px;
 	font-size: 60px;
 	text-shadow: 0 0 4px rgba(0,0,0,0.75);
-	/*position: fixed;*/
 }
 .scrollWrapper {
-/*	height: 50px;*/
 	width: 100%;
 	background: rgba(0,0,0,0.75);
 	position: fixed;
 	z-index: 1000;
 	top:0;
-	/*padding-left:5%;*/
 }
 .scrollWrapper h3 {
 	color: white;
 	font-size: 20px;
 	margin: 0;
-/*	padding-top: 2%;*/
 	padding: 1.5%;   
 	padding-left: 5%;
 	display: inline-block;
@@ -57,7 +53,6 @@ header h1{
 	z-index: 1000;
 	position: fixed;
 	background-color: #009ACF;
-	/*opacity: 0.5;*/
 	width: 50px;
 	top: 50px;
 
@@ -91,7 +86,38 @@ th {
 	background: #131412;
 	color: white;
 }
-
+span {
+	font-weight: 900;
+}
 span.defaultColor {
 	color: #009ACF ;
+}
+
+.getPlugin {
+	background: #131412;
+	color: white;
+	border-radius: 3px;
+	padding: 1%;
+	margin: 2%;
+	text-decoration: none;
+	display: inline-block;
+}
+.getPlugin:hover {
+	background: #888;
+}
+.fork {
+	text-decoration: none;
+	color: black;
+}
+.fork:hover {
+	color: #888;
+}
+
+i.fa {
+	font-size: 45px;
+	color: #131412;
+	margin: 1%;
+}
+i.fa:hover{
+	color: #888;
 }

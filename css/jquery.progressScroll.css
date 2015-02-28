@@ -1,0 +1,28 @@
+.scrollWrapper {
+	width: 100%;
+	background: rgba(0,0,0,0.75);
+	position: fixed;
+	z-index: 1000;
+	top:0;
+}
+.scrollWrapper h3 {
+	color: white;
+	font-size: 20px;
+	margin: 0;
+	padding: 1.5%;   
+	padding-left: 5%;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;   
+	}
+
+}
+.scroll-bar {
+	height: 10px;
+	z-index: 1000;
+	position: fixed;
+	background-color: #009ACF;
+	width: 50px;
+	top: 50px;
+
+}
