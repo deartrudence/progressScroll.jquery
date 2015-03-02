@@ -27,9 +27,9 @@
 
 		<h3>Simple</h3>
 
-		<img src="simple.png" alt="">
-
 		<p>Simply add the <span>jquery.progressScroll.js</span> and <span>jquery.progressScroll.css</span> to your project.  Remember to add a script tag for the .js file and a link tag for the .css file in your html and the latest version of <span>jquery</span>.</p>
+
+		<img src="simple.png" alt="">
 
 		<p>Once everything is set up all you have to do in your main javascript file is select the element for which the scroll bar will be used and append .progressScroll()</p>
 
@@ -41,47 +41,40 @@
 
 		<img src="withOptions.png" alt="">
 
-		<p>If the default progressScroll doesn't quite fit with the look and feel of your site you can change that!</p>
+		<p>If the default progressScroll doesn't quite fit with the look and feel of your site you can change that.</p>
 
 		<p>By adding any or all of the options available in the above picture you can change the color, font, width and whether the headings even appear at all.</p>
 
-		<table style="width:100%">
-			<tr>
-				<th>Option</th>
-				<th>Description</th> 
-				<th>Default</th>
-			</tr>
-			<tr>
-		    	<td>backgroundColor</td>
-		    	<td>Sets the scrolling bar color. Any valid color type will be accepted</td> 
-		    	<td><span class='defaultColor'>#009ACF</span></td>
-		  	</tr>
-		  	<tr>
-		    	<td>height</td>
-		    	<td>Sets the height of the scrolling bar</td> 
-		    	<td>5px</td>
-		  	</tr>
-	  		<tr>
-	  	    	<td>textArea</td>
-	  	    	<td>Switch between 'dark' or 'light' text area above scrolling bar. Options {light|dark}</td> 
-	  	    	<td>dark</td>
-	  	  	</tr>
-	  	  	<tr>
-	  	    	<td>font</td>
-	  	    	<td>Choose a font family for the headings</td> 
-	  	    	<td>sans-serif</td>
-	  	  	</tr>
-  	  		<tr>
-  	  	    	<td>fontSize</td>
-  	  	    	<td>Choose the size of the font for the headings</td> 
-  	  	    	<td>20</td>
-  	  	  	</tr>
-  	  	  	<tr>
-  	  	    	<td>headings</td>
-  	  	    	<td>Choose whether you want the headings to appear or not. Options {true|false}</td> 
-  	  	    	<td>true</td>
-  	  	  	</tr>
-		</table>
+
+		<div class="clearfix table">
+		<ul class="column1">
+			<li>Options</li>
+			<li>backgroundColor</li>
+			<li>height</li>
+			<li>textArea</li>
+			<li>font</li>
+			<li>fontSize</li>
+			<li>headings</li>
+		</ul>
+		<ul class="column2">
+			<li>Description</li>
+			<li>Sets the scrolling bar color. Any valid color type will be accepted</li>
+			<li>Sets the height of the scrolling bar</li>
+			<li>Switch between 'dark' or 'light' text area above the scrolling bar {light|dark}</li>
+			<li>Choose a font family for the headings</li>
+			<li>Choose the size of the font for the headings</li>
+			<li>Choose whether you want the headings to appear or not. Options {true|false}</li>
+		</ul>
+		<ul class="column3">
+			<li>Default</li>
+			<li><span class='defaultColor'>#009ACF</span></li>
+			<li>5px</li>
+			<li>dark</li>
+			<li>sans-serif</li>
+			<li>20</li>
+			<li>true</li>
+		</ul>
+		</div>
 
 		<h2>Get the plugin</h2>
 
@@ -127,7 +120,7 @@
 
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime accusamus fugiat nobis eveniet nihil sunt, odit ipsam animi esse quidem sint suscipit ea nulla deserunt, non dolorum minima culpa, illum temporibus necessitatibus obcaecati ex facere veritatis eius numquam. Laborum eligendi, hic error reprehenderit dolore sequi pariatur ut labore animi nihil tempore dignissimos placeat sit doloribus provident, cupiditate quam ducimus quibusdam et. Repellendus dolorum doloremque sunt placeat, explicabo consectetur repellat debitis magni officiis ad cupiditate, numquam blanditiis nihil itaque quae amet.</p>
 
-		<h2>Sub-heading 7</h2>
+		<h2 class='testing'>Sub-heading 7</h2>
 
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis cumque, fugit facilis molestiae modi illo consequuntur sint, voluptate, unde dignissimos voluptates quia dolorum. Rerum aliquam fugit repudiandae architecto ipsam at tempora obcaecati, animi consectetur, suscipit quisquam sunt nemo est doloremque perferendis dolore harum quis aperiam!</p>
 
@@ -140,6 +133,9 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime accusamus fugiat nobis eveniet nihil sunt, odit ipsam animi esse quidem sint suscipit ea nulla deserunt, non dolorum minima culpa, illum temporibus necessitatibus obcaecati ex facere veritatis eius numquam. Laborum eligendi, hic error reprehenderit dolore sequi pariatur ut labore animi nihil tempore dignissimos placeat sit doloribus provident, cupiditate quam ducimus quibusdam et. Repellendus dolorum doloremque sunt placeat, explicabo consectetur repellat debitis magni officiis ad cupiditate, numquam blanditiis nihil itaque quae amet.</p>
 	
 	</div><!-- /.wrapper -->
+	<footer>
+		<p>made with</p><i class="fa fa-heart"></i><p>by </p><a href="https://twitter.com/dear_trudence">@dear_trudence</a> 
+	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="scripts/jquery.progressScroll.js"></script>
 	<script src="scripts/main.js"></script>
