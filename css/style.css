@@ -74,7 +74,39 @@ header h1{
 img {
 	width: 100%;
 }
+ul {
+	float: left;
+	/*display: inline-block;*/
+	word-wrap: break-word;
+	list-style-type: none;
+	/*border: 1px solid black;*/
+}
+.column1 {
+	width: 25%;
+}
+.column2 {
+	width: 55%;
+}
+.column3 {
+	width: 20%;
+}
+.column1, .column2, .column3 {
+	margin: 0;
+	padding: 0;
+}
+.column1 li, .column2 li, .column3 li {
+	height: 75px;
+	border: 1px solid black;
+	padding: 3%;
 
+}
+.column1 li:first-child, .column2 li:first-child, .column3 li:first-child {
+	background: black;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+.table 
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -120,4 +152,26 @@ i.fa {
 }
 i.fa:hover{
 	color: #888;
+}
+
+i.fa-heart {
+	color:red;
+	font-size: 15px;
+	display: inline;
+}
+
+footer {
+	background: #5C7309;
+	color: white;
+	padding: 2%;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+	display: inline;
+}
+footer p {
+	display: inline;
 }
